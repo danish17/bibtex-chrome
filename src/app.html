@@ -1,0 +1,47 @@
+<!-- Chrome extension by Danish Shakeel
+github.com/danish17 | https://danishshakeel.me
+Core functionality by Enric & David @ https://bibtex.online -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/vendor/jquery-3.2.1.min.js"></script>
+    <script src="scripts/vendor/BibTex.js"></script>
+    <script src="scripts/core.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+    <div class="container-main">
+        <h1>BibTeX Chrome</h1>
+        <h4 id="credits">Extension by Danish (https://danishshakeel.me)</a></h4>
+        <form>
+            <h4>Insert BibTeX here:</h4>
+            <textarea name="bibtex" id="bibtex" placeholder="@article{IJBCP4109,
+                author = {Danish Shakeel and Shakeel Mir},
+                title = {Personalized drug concentration predictions with machine learning: an exploratory study},
+                journal = {International Journal of Basic & Clinical Pharmacology},
+                year = {2020},
+                issn = {2279-0780},	pages = {980--984}	doi = {10.18203/2319-2003.ijbcp20202194},
+                url = {https://www.ijbcp.com/index.php/ijbcp/article/view/4109}
+                }"></textarea>
+
+            <h4>Format:</h4>
+            <select class="selection" id="format">
+                <option value="apa">APA</option>
+                <option value="mla">MLA</option>
+                <option value="chicago">Chicago</option>
+                <option value="harvard">Harvard</option>
+                <option value="vancouver">Vancouver</option>
+            </select>
+
+            <h4>Result:</h4>
+            <div id="todiv"></div>
+        </form>
+        <h4 id="credits" style="font-size: 0.8em; opacity: 0.4;">Core by Enric & David (bibtex.online)</h4>
+    </div>
+</body>
+</html>

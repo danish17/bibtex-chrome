@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    border-radius: 10px;
+    background: #23282e;
+}
+
+.container-main{
+    width: 314px;
+    padding: 6px 12px;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #f45b5b;
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+
+h4{
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#f5f5f5;
+    margin-bottom: 2px;
+}
+
+h4#credits{
+    margin: 0;
+    padding: 0;
+    color:#f5f5f5dc !important;
+}
+
+::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.35) !important;
+}
+
+textarea{
+    padding: 5px;
+    margin: 0;
+    border: 0.3px solid rgba(0, 0, 0, 0.25);
+    outline: none;
+    user-select: none;
+    resize: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.55);
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    user-select: none;
+    outline: none;
+    color:rgba(0, 0, 0, 0.55);
+}
+
+button{
+    background: #f5f5f5;
+    transition: 0.1s all ease-in-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    user-select: none;
+    outline: none;
+    color:rgba(0, 0, 0, 0.55);
+    padding: 5px;
+    float: right;
+    margin: 10px 0 10px 0;
+}
+
+button:hover{
+    transition: 0.1s all ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #f5f5f5bb;
+}
+
+#todiv{
+    font-family: 'Quicksand', sans-serif;
+    color: #f45b5b;
+    font-size: 1.2em;
+}
